@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test thread-count="5" name="TeschFios Test Case(failed)">
+    <classes>
+      <class name="com.TestCases.LoginPageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="VerifyLogoofThePage"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- TeschFios Test Case(failed) -->
+</suite> <!-- Failed suite [Regression] -->
